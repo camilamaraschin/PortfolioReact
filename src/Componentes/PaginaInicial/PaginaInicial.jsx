@@ -11,7 +11,7 @@ import { RedesSociais } from '../RedesSociais/RedesSociais';
     <>
     <Navbar/>
     <Container>
-            <img src='../../../public/imagens/perfil.png'/>
+            <img src='/imagens/perfil.png'/>
         <ContainerText> 
          <h2> Olá, sou a Camila </h2>
          <p> Sou <b>desenvolvedora de aplicação web</b> e prático o aprendizado contínuo.Sempre em busca  <br/>
