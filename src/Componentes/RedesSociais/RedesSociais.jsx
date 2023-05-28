@@ -1,21 +1,46 @@
 import styled from "styled-components"
 
+const links = [
+  {
+    imageSrc: '/imagens/linkedin.png',
+    alt: 'linkedin',
+    url: 'https://www.linkedin.com/in/camilamaraschin/',
+    label: 'Linkedin'
+  },
+  {
+    imageSrc: '/imagens/github.png',
+    alt: 'github',
+    url: 'https://github.com/camilamaraschin',
+    label: 'Github'
+  },
+  {
+    imageSrc: '/imagens/codepen.png',
+    alt: 'codepen',
+    url: 'https://codepen.io/camilamaraschin',
+    label: 'Codepen'
+  },
+  {
+    imageSrc: '/imagens/email.png',
+    alt: 'email',
+    url: 'mailto:camilapb11@hotmail.com',
+    label: 'Email'
+  }
+];
+
 export function RedesSociais(){
     return(
-        <ContainerButton>
-        <ul className="box">
-                <li> <img src="/imagens/linkedin.png" alt="linkedin"/><a href="https://www.linkedin.com/in/camilamaraschin/" target="blank"> Linkedin</a></li>
-            </ul>
-            <ul className="box">
-                <li> <img src="/imagens/github.png" alt="github"/><a href="https://github.com/camilamaraschin" target="blank"> Github</a></li>
-            </ul>
-            <ul className="box">
-                <li>  <img src="/imagens/codepen.png" alt="codepen"/><a href="https://codepen.io/camilamaraschin" target="blank"> Codepen</a></li>
-            </ul>
-            <ul className="box">
-                <li><img src="/imagens/email.png" alt="email"/> <a href="mailto:camilapb11@hotmail.com" target="blank"> Email</a></li>
-            </ul> 
-        </ContainerButton>
+      <ContainerButton>
+      {links.map((link, index) => (
+        <ul className="box" key={index}>
+          <li>
+            <img src={link.imageSrc} alt={link.alt} />
+            <a href={link.url} target="_blank" rel="noopener noreferrer">
+              {link.label}
+            </a>
+          </li>
+        </ul>
+      ))}
+    </ContainerButton>
 
     )
 }
@@ -25,14 +50,15 @@ const ContainerButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2.3rem;
-  margin-left: 20rem;
+
+ 
   
 
   .box{
    
-    margin: 1.9rem;
-    padding: 1rem;
+    margin-left: .9rem;
+   
+    padding: 4rem;
   }
 
   li {
@@ -46,6 +72,7 @@ const ContainerButton = styled.div`
 
   img{
     width: .9rem;
+    
     
   }
 

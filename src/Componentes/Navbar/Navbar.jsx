@@ -24,7 +24,7 @@ import styled from "styled-components"
   gap: 2em;
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 1.2rem;
+  padding: 4.5rem;
   margin-left: 10rem;
   
 
@@ -40,7 +40,7 @@ import styled from "styled-components"
   }
 
   a:hover {
-    color: #9f9aa0;
+    color: #CB6CE6;
   }
 
   @media (max-width: 768px) {

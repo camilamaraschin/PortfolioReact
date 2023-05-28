@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Navbar } from '../Navbar/Navbar';
 import { RedesSociais } from '../RedesSociais/RedesSociais';
+import { Tecnologia } from '../Tecnologias/Tecnologia';
 
 
  
@@ -14,20 +15,18 @@ import { RedesSociais } from '../RedesSociais/RedesSociais';
             <img src='/imagens/perfil.png'/>
         <ContainerText> 
          <h2> Olá, sou a Camila </h2>
-         <p> Sou <b>desenvolvedora de aplicação web</b> e prático o aprendizado contínuo.Sempre em busca  <br/>
-         de novos desafios na area da tecnologia para agregar todas as minhas skills que vão alem de<br/> skills técnicas. 
-         <br/> <br/>Atualmente sou estágiaria da área da Governança de TI onde trabalho a frente de um projeto  <br/>
-             do zero no desenvolvimento de um Portal de noticias relacionados a Governança de TI aplicando <br/> conceitos de UX/UI Desing, usando tecnologias 
-             como : <u>ReactJs e JavaSpring Boot</u> e alguns <br/> processos e Governança e metodologias como: fluxo de processos, metodologias ágeis, <br/>lean inception
-             e dentre outras. <br/> <br/>
-             Um dos meus principais objetivos de carreira é poder trabalhar com pessoas experientes que <br/>  possam aprender e que eu tenha a 
-             oportunidade ensinar, contribuir com as metas do time, <br/> contribuir e gerar bons resultados. 
+         <p> Sou <b>desenvolvedora de aplicação web e mobile</b> e prático o aprendizado contínuo. Sempre em busca  <br/>
+         de novos desafios na área da tecnologia onde possa agregar todas as minhas skills que vão além de<br/> skills técnicas. 
+         <br/> <br/>
+             Um dos meus principais objetivos de carreira é poder trabalhar com pessoas experientes que <br/> possam me ensinar a ter boas práticas
+              de programação, a cumprir metas, participar <br/> e contribuir gerando com o st bons resultados. 
 
          </p>
         </ContainerText>
 
 
     </Container>
+    <Tecnologia/>
         <RedesSociais/>
    
     </>
