@@ -6,19 +6,41 @@ return(
     <>
     <Container>
         <ContainerText> 
-         <h3> Conhecimento e tecnologias que trabalho </h3>
-          <ul>
+        
+         <ContainerList>
+
+          <List>
+            <li> Git/Github</li>
+          </List>
+          <List>
+            <li> Bitbucket</li>
+          </List>
+          <List>
+            <li> CSS</li>
+          </List>
+          <List>
             <li> Javascript</li>
-          </ul>
-          <ul>
+          </List>
+          <List>
             <li> ReactJs</li>
-          </ul>
-          <ul>
+          </List>
+          <List>
             <li> Styled Components</li>
-          </ul>
-          <ul>
+          </List>
+          <List>
+            <li> Figma</li>
+          </List>
+          <List>
+            <li> Metodologias Ágeis</li>
+          </List>
+          <List>
             <li> Gestão de Projetos</li>
-          </ul>
+          </List>
+          <List>
+            <li> UX/UI Designer</li>
+          </List>
+         
+         </ContainerList>
         </ContainerText>
 
 
@@ -28,34 +50,58 @@ return(
 }
 
 const Container = styled.div`
-display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1.9rem;
   text-align: center;
 
- 
-
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    
   }
 `;
 
 const ContainerText = styled.div`
- line-height: 1.5;
- margin-bottom: 1rem;
- text-align: justify;
- color: #3e3d3f;
- font-size: 1.1rem;
- flex-direction:inline;
+  line-height: 1.5;
+  color: #3e3d3f;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 
- @media (min-width: 768px) {
+  @media (min-width: 768px) {
     text-align: left;
     font-size: 1.2rem;
   }
- 
 `;
+
+const ContainerList = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+const List = styled.ul`
+  border: 1px solid black;
+  border-radius: 3rem;
+  width: 14rem;
+  margin: 1.5rem;
+  margin-left: 0;
+  flex-direction: row;
+  color: white;
+  background-color: #cb6ce6;
+  box-shadow: 5px 10px #888888;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) {
+    margin-left: 9rem;
+  }
+
+
+`

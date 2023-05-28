@@ -46,34 +46,27 @@ export function RedesSociais(){
 }
 
 const ContainerButton = styled.div`
-  
-  display: flex;
+ display: flex;
   justify-content: center;
   align-items: center;
-
- 
   
-
-  .box{
-   
-    margin-left: .9rem;
-   
+  .box {
+    margin-left: 4rem;
     padding: 4rem;
   }
 
   li {
     display: inline;
+    font-weight: 700;
   }
 
   a {
     color: #3e3d3f;
-   font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
-  img{
-    width: .9rem;
-    
-    
+  img {
+    width: 0.9rem;
   }
 
   @media (max-width: 768px) {
@@ -85,4 +78,4 @@ const ContainerButton = styled.div`
       margin: 1rem;
     }
   }
-`;
+`
