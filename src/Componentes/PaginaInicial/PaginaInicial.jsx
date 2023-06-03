@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Navbar } from '../Navbar/Navbar';
 import { RedesSociais } from '../RedesSociais/RedesSociais';
 import { Tecnologia } from '../Tecnologias/Tecnologia';
+import Projetos from '../Projetos/Projetos';
 
 
  
@@ -26,8 +27,11 @@ import { Tecnologia } from '../Tecnologias/Tecnologia';
 
 
     </Container>
-    <Tecnologia/>
         <RedesSociais/>
+        <Text> Habilidades e conhecimentos</Text>
+    <Tecnologia/>
+    <Text> Projetos</Text>
+    <Projetos/>
    
     </>
  )
@@ -75,4 +79,9 @@ const ContainerText = styled.div`
  
 `;
 
+ const Text =styled.h2`
  
+ text-align: center;
+ margin-left: 7.8rem;
+ padding: 1rem;
+ `
