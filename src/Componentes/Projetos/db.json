@@ -1,0 +1,65 @@
+[
+    {
+      "imageSrc": "/imagens/rocketcard.gif",
+      "title": "RocketCard",
+      "links": [
+        {
+          "text": "Site ||",
+          "url": "https://rocketcard-ivory.vercel.app/"
+        },
+        {
+          "text": "  Repositório",
+          "url": "https://github.com/camilamaraschin/Rocketcard"
+        }
+      ]
+    },
+    {
+        "imageSrc": "/imagens/apigithub.gif",
+        "title": "Api Github",
+        "links": [
+          {
+            "text": "Site ||",
+            "url": "https://api-github-one.vercel.app/"
+          },
+          {
+            "text": "  Repositório",
+            "url": "https://github.com/camilamaraschin/API-Github"
+          }
+        ]
+      },
+    {
+      "imageSrc": "/imagens/Marvel.png",
+      "title": "Escolha seu Personagem",
+      "links": [
+        {
+          "text": "Site ||",
+          "url": "https://camilamaraschin.github.io/Projeto-Mapa-DevWeek/"
+        },
+        {
+          "text": "  Repositório",
+          "url": "https://github.com/camilamaraschin/Projeto-Mapa-DevWeek"
+        }
+      ]
+    },
+    {
+      "imageSrc": "/imagens/progress.gif",
+      "title": "21 dias de Javascript",
+      "links": [
+        {
+          "text": "Repositório",
+          "url": "https://github.com/camilamaraschin/21diasDeCodigoJs"
+        }
+      ]
+    },
+    {
+      "imageSrc": "/imagens/pendulo.gif",
+      "title": "30 dias de CSS",
+      "links": [
+        {
+          "text": "Repositório",
+          "url": "https://github.com/camilamaraschin/30diasCSS"
+        }
+      ]
+    }
+  ]
+  
