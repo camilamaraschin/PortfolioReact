@@ -14,14 +14,18 @@ import Projetos from '../Projetos/Projetos';
     <Navbar/>
     <Container>
             <img src='/imagens/perfil.png'/>
-        <ContainerText> 
+            <ContainerText> 
          <h2> Olá, sou a Camila </h2>
-         <p> Sou <b>desenvolvedora de aplicação web e mobile</b> e prático o aprendizado contínuo. Sempre <br/>
-         em busca de novos desafios na área da tecnologia para agregar todas as minhas skills que vão<br/> além de skills técnicas. 
-         <br/> <br/>
-             Um dos meus principais objetivos de carreira é poder trabalhar com pessoas experientes no <br/> qual possa aprender e que eu tenha
-            a oportunidade de ensinar aqueles que precisem quero <br/>poder contribuir com as metas do time, trazer resoluções de problemas
-            e gerar bons resultados. 
+         <p> Sou uma <b>desenvolvedora  apaixonada por criar aplicações web e mobile inovadoras</b> e 
+          estou constantemente<br/> em busca de novos desafios na área da tecnologia. Além das minhas
+          habilidades técnicas, sou uma defensora do <br/>aprendizado contínuo, sempre buscando
+          expandir meus conhecimentos.
+         <br/><br/>
+         Um dos meus principais objetivos de carreira é ter a oportunidade de trabalhar ao lado
+          de profissionais experientes<br/> dos quais eu possa aprender e, ao mesmo tempo, compartilhar 
+            meus conhecimentos com aqueles que precisam.<br/> Estou ansiosa para contribuir com as metas da 
+              equipe, trazer soluções para problemas complexos e gerar resultados <br/>excepcionais e aproveitar 
+              todas as oportunidades de desenvolvimento profissional que surgirem.
 
          </p>
         </ContainerText>
