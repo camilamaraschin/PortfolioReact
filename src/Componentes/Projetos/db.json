@@ -1,14 +1,4 @@
-[{
-  "imageSrc": "/imagens/bizagi.png",
-  "title": "Fluxo de construção de uma pagina de Login",
-  "links": [
-    {
-      "text": "Repositório",
-      "url": "https://github.com/camilamaraschin/FluxodeLogin"
-    }
-  ]
-},
-    {
+[ {
       "imageSrc": "/imagens/rocketcard.gif",
       "title": "RocketCard",
       "links": [

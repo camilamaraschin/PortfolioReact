@@ -1,17 +1,28 @@
 import styled from "styled-components" 
+import {Link} from 'react-router-dom'
 
  export function Navbar(){
     return (
       <Navigation>
       
+           <li>
+            <Link to='/'>Inicio</Link>
+          </li>
 
-        <ul> 
-        <li> <a href=""> Inicio</a></li>
-        </ul>
+          <li>
+            <Link to='/ProjetosWeb'>Desenvolvimento Web</Link>
+          </li>
 
-        <ul> 
-        <li> <a href="#"> Projetos</a></li>
-        </ul>
+          <li>
+            <Link to='/Processos'>Fluxos BPMN</Link>
+          </li>
+      
+
+          <li>
+            <Link to='/PowerBi'>Dashboard PowerBi</Link>
+          </li>
+
+       
      
       </Navigation>
     )
@@ -24,31 +35,29 @@ import styled from "styled-components"
   gap: 2em;
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 4.5rem;
+  padding: 2rem;
   margin-left: 10rem;
-  
-
 
   li {
     display: inline;
-    
   }
 
   a {
     color: #3e3d3f;
-    
   }
 
   a:hover {
-    color: #CB6CE6;
+    color: #74A2B8;
   }
 
   @media (max-width: 768px) {
-    margin-left: 0;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     padding: 1rem;
-
-   
+    margin-left: 0;
+    
+    li {
+      margin-bottom: 1rem;
+    }
   }
 `;

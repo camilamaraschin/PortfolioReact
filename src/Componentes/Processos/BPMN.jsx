@@ -1,13 +1,13 @@
 import styled from "styled-components"
-import db from './db.json';
+import bpmn from './bpmn.json';
 
 
-function Projetos (){
+function Processos (){
     return(
  <>
 
-<Titile> Aqui você encontra alguns projetos que desenvolvi com JavaScript </Titile>
-{db.map((projeto, index) => (
+<Titile> Aqui você encontra alguns desenhos de fluxos de casos fictícios usando como ferramenta o Bizagi  </Titile>
+{bpmn.map((projeto, index) => (
         <CardContainer key={index}>
           <img src={projeto.imageSrc} alt={projeto.title} />
           <h3>{projeto.title}</h3>
@@ -28,7 +28,7 @@ function Projetos (){
     )
 }
 
-export default Projetos
+export default Processos
 
 const CardContainer = styled.section`
  display: flex;
@@ -39,8 +39,8 @@ const CardContainer = styled.section`
 
   img {
     width: 35rem;
-    height: 20rem;
-    border: 2px dashed #cb6ce6;
+    height: 15rem;
+    border: 2px dashed #74A2B8;
     border-radius: 3rem;
     padding: 0.8rem;
   }
@@ -70,16 +70,15 @@ const CardContainer = styled.section`
     
   }
 
-  a:hover {
-    color: #CB6CE6;
-  }
+ 
   
 `;
 
 const Titile = styled.h2`
 
 text-align: center;
-margin-left:8rem;
+
+margin-left:10rem;
 color: #74A2B8;
 
 `

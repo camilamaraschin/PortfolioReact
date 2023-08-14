@@ -8,35 +8,32 @@ return(
         <ContainerText> 
         
          <ContainerList>
+         <List>
+            <li> BPMN</li>
+          </List>
+
+          <List>
+            <li> Metodologias Ágeis</li>
+          </List>
+
+
 
           <List>
             <li> Git/Github</li>
           </List>
-          <List>
-            <li> Bitbucket</li>
-          </List>
-          <List>
-            <li> CSS</li>
-          </List>
-          <List>
+                   
+             <List>
             <li> Javascript</li>
           </List>
           <List>
             <li> ReactJs</li>
           </List>
-          <List>
-            <li> Styled Components</li>
-          </List>
+          
           <List>
             <li> Figma</li>
           </List>
-          <List>
-            <li> Metodologias Ágeis</li>
-          </List>
-          <List>
-            <li> Gestão de Projetos</li>
-          </List>
-          <List>
+          
+            <List>
             <li> UX/UI Designer</li>
           </List>
          
@@ -90,7 +87,7 @@ const List = styled.ul`
   margin-left: 0;
   flex-direction: row;
   color: white;
-  background-color: #cb6ce6;
+  background-color: #74A2B8;
   box-shadow: 5px 10px #888888;
 
   li {

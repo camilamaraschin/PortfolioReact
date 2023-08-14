@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import { Navbar } from '../Navbar/Navbar';
+
+
 import { RedesSociais } from '../RedesSociais/RedesSociais';
 import { Tecnologia } from '../Tecnologias/Tecnologia';
-import Projetos from '../Projetos/Projetos';
+
 
 
  
@@ -11,21 +12,24 @@ import Projetos from '../Projetos/Projetos';
  return (
 
     <>
-    <Navbar/>
+    
     <Container>
-            <img src='/imagens/perfil.png'/>
+            <img src='/imagens/perfil.jpeg'/>
             <ContainerText> 
          <h2> Olá, sou a Camila </h2>
-         <p> Sou uma <b>desenvolvedora  apaixonada por criar aplicações web e mobile inovadoras</b> e 
-          estou constantemente<br/> em busca de novos desafios na área da tecnologia. Além das minhas
-          habilidades técnicas, sou uma defensora do <br/>aprendizado contínuo, sempre buscando
-          expandir meus conhecimentos.
+         <p> Minha <b>paixão pela tecnologia</b> me levou a explorar a <b>agilidade e suas metodologias</b>, assim como os processos<br/>que compõem um projeto.
+         Defendo o aprendizado contínuo e estou constantemente em busca de ampliar meus<br/>conhecimentos e habilidades técnicas. 
+         Percebo que o setor de tecnologia exige atualização constante, e estou <br/>comprometida em acompanhar todas as evoluções do mercado.
          <br/><br/>
-         Um dos meus principais objetivos de carreira é ter a oportunidade de trabalhar ao lado
-          de profissionais experientes<br/> dos quais eu possa aprender e, ao mesmo tempo, compartilhar 
-            meus conhecimentos com aqueles que precisam.<br/> Estou ansiosa para contribuir com as metas da 
-              equipe, trazer soluções para problemas complexos e gerar resultados <br/>excepcionais e aproveitar 
-              todas as oportunidades de desenvolvimento profissional que surgirem.
+         Um dos meus <b>principais objetivos de carreira</b> é ter a oportunidade de trabalhar ao lado de profissionais experientes,<br/>
+          dos quais eu possa aprender e, ao mesmo tempo, compartilhar meus conhecimentos com aqueles que precisam.<br/> Quero poder contribuir com as metas da equipe,
+          trazer soluções para problemas complexos, gerar resultados<br/>excepcionais e aproveitar
+           todas as oportunidades de desenvolvimento profissional que surgirem.
+
+
+
+
+          
 
          </p>
         </ContainerText>
@@ -36,7 +40,7 @@ import Projetos from '../Projetos/Projetos';
         <Text> Habilidades e conhecimentos</Text>
     <Tecnologia/>
     
-    <Projetos/>
+   
    
     </>
  )
@@ -85,10 +89,10 @@ const ContainerText = styled.div`
 `;
 
  const Text =styled.h1`
- 
+ color: #3e3d3f;
  text-align: center;
  margin-left: 7.8rem;
  padding: 1rem;
- text-shadow: 0.1em 0.1em 0.2em #cb6ce6 ;
+
  
  `
